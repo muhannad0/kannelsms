@@ -1,0 +1,10 @@
+[Unit]
+Description=Modem Mode Switch
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/bin/bash /home/pi/modem-switch.sh > /tmp/modem-switch.log
+
+[Install]
+WantedBy=multi-user.target

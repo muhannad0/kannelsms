@@ -1,0 +1,6 @@
+# T-Mobile NL (Huawei E352)
+DefaultVendor=0x12d1
+DefaultProduct=0x14fe
+TargetVendor=0x12d1
+TargetProductList="1506,150f,151d"
+HuaweiNewMode=1
